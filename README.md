@@ -1,12 +1,12 @@
-The Ethics of Synthetic Representation: From Building It to Governing It
+#The Ethics of Synthetic Representation: From Building It to Governing It
 
-This repository contains my work for Research Task 7: The Ethics of Synthetic Representation.
+#This repository contains my work for Research Task 7: The Ethics of Synthetic Representation.
 
 Task 7 builds directly on my Task 6 work with synthetic audio, synthetic video, and AI-content detection. In Task 6, I created synthetic media using a verified analytical narrative, experimented with tools such as ElevenLabs and HeyGen, and evaluated the outputs using Hive detection tools.
 
 Task 7 moves from creating synthetic media to reasoning about its ethical implications and governing its use responsibly.
 
-Organizational Context
+#Organizational Context
 
 For Phase B, I chose a University Communications Office.
 
@@ -30,9 +30,9 @@ At the same time, university communications carry institutional authority. A syn
 
 Because of this, the policy developed in Phase B allows limited responsible uses while prohibiting high-risk uses such as impersonation, unauthorized digital replicas, synthetic emergency announcements, and misleading institutional communications.
 
-Repository Contents
+#Repository Contents
 
-analysis.md
+#analysis.md
 
 This file contains Phase A: Ethical Analysis of Synthetic Representation.
 
@@ -62,7 +62,7 @@ professional and organizational norms.
 
 The final sections identify overall ethical responsibility and translate the findings into governance principles for Phase B.
 
-policy.md
+#policy.md
 
 This file contains Phase B: University Communications Office Synthetic Media Policy.
 
@@ -98,17 +98,17 @@ policy review.
 
 The policy also includes a limitations and residual risk section that stress-tests the policy against realistic failure modes such as removed disclosure, lost provenance, imperfect detection, misunderstood consent, employee mistakes, bad-faith misuse, and platform limitations.
 
-A central principle of the policy is that:
+#A central principle of the policy is that:
 
 Disclosure does not make every use acceptable.
 
 Some synthetic-media uses should be refused completely when the risk of impersonation, deception, or audience confusion is too high.
 
-Connection to Task 6
+#Connection to Task 6
 
 Task 7 is grounded in the synthetic-media work completed in Task 6.
 
-Task 6 Repository:
+#Task 6 Repository:
 Task 6: Deep Fake Research Project
 
 The Task 6 work is referenced rather than re-uploaded into this repository.
@@ -126,7 +126,7 @@ Another important realization was that many safeguards depend on context remaini
 Because of this, the strongest governance approach is not one perfect technical solution. It is a combination of verified content, informed consent, visible disclosure, provenance, human review, incident response, and a willingness to refuse high-risk uses.
 
 
-Synthetic Media Notice
+#Synthetic Media Notice
 
 No new synthetic media depicting a real, identifiable person is created or distributed in this repository.
 
