@@ -1,133 +1,210 @@
-#The Ethics of Synthetic Representation: From Building It to Governing It
+# The Ethics of Synthetic Representation: From Building It to Governing It
 
-#This repository contains my work for Research Task 7: The Ethics of Synthetic Representation.
+> **Research Task 7 — The Ethics of Synthetic Representation**
 
-Task 7 builds directly on my Task 6 work with synthetic audio, synthetic video, and AI-content detection. In Task 6, I created synthetic media using a verified analytical narrative, experimented with tools such as ElevenLabs and HeyGen, and evaluated the outputs using Hive detection tools.
+This repository contains my work for **Research Task 7: The Ethics of Synthetic Representation**.
 
-Task 7 moves from creating synthetic media to reasoning about its ethical implications and governing its use responsibly.
+Task 7 builds directly on my **Task 6** work with synthetic audio, synthetic video, and AI-content detection. In Task 6, I created synthetic media using a verified analytical narrative, experimented with tools such as **ElevenLabs** and **HeyGen**, and evaluated the outputs using **Hive detection tools**.
 
-#Organizational Context
+Task 7 moves from **creating synthetic media** to **reasoning about its ethical implications and governing its use responsibly**.
 
-For Phase B, I chose a University Communications Office.
+---
 
-This setting is useful because a university communications team produces public-facing and internal messages for students, faculty, staff, families, alumni, prospective students, and the public.
+## Organizational Context
+
+For Phase B, I chose a **University Communications Office**.
+
+A university communications team produces public-facing and internal messages for:
+
+* Students
+* Faculty and staff
+* Families
+* Alumni
+* Prospective students
+* Media organizations
+* The general public
+
+### Why This Setting?
 
 Synthetic media could provide real benefits in this environment, including:
 
-multilingual communication,
+| Potential Use                  | Benefit                                     |
+| ------------------------------ | ------------------------------------------- |
+| **Multilingual communication** | Reach audiences in multiple languages       |
+| **Accessibility support**      | Provide alternative audio or visual formats |
+| **Narration**                  | Produce informational content efficiently   |
+| **Orientation content**        | Create scalable student resources           |
+| **Training materials**         | Support internal learning                   |
+| **Informational videos**       | Produce reusable communication at scale     |
 
-accessibility support,
+At the same time, university communications carry **institutional authority**.
 
-narration,
+A synthetic representation of a university president, professor, employee, or student could create confusion about **who actually created, delivered, or authorized a statement**.
 
-orientation content,
+Because of this, the Phase B policy allows limited responsible uses while prohibiting high-risk uses such as:
 
-training materials,
+* **Impersonation**
+* **Unauthorized digital replicas**
+* **Synthetic emergency announcements**
+* **Misleading institutional communications**
 
-scalable informational videos.
+---
 
-At the same time, university communications carry institutional authority. A synthetic representation of a university president, professor, employee, or student could create confusion about who actually made or authorized a statement.
+## Repository Contents
 
-Because of this, the policy developed in Phase B allows limited responsible uses while prohibiting high-risk uses such as impersonation, unauthorized digital replicas, synthetic emergency announcements, and misleading institutional communications.
+```text
+Task_07_Ethics_Synthetic_Media/
+│
+├── README.md
+├── analysis.md
+└── policy.md
+```
 
-#Repository Contents
+---
 
-#analysis.md
+## Phase A — Ethical Analysis
 
-This file contains Phase A: Ethical Analysis of Synthetic Representation.
+### [`analysis.md`](analysis.md)
 
-The analysis begins with a reflection on my Task 6 artifact and then reasons across four ethical axes:
+This file contains **Phase A: Ethical Analysis of Synthetic Representation**.
 
-Truth — what changes when the same synthetic-media capability is used to deliver false information?
+The analysis begins with a reflection on my **Task 6 artifact** and then reasons across four ethical axes.
 
-Consent — what changes when another person's voice or likeness is used without permission?
+| Ethical Axis | Central Question                                                                            |
+| ------------ | ------------------------------------------------------------------------------------------- |
+| **Truth**    | What changes when the same synthetic-media capability is used to deliver false information? |
+| **Consent**  | What changes when another person's voice or likeness is used without permission?            |
+| **Context**  | What happens when disclosure is removed, cropped, or separated from the artifact?           |
+| **Scale**    | What changes when one artifact becomes hundreds or thousands through automation?            |
 
-Context — what happens when disclosure is removed, cropped, or separated from the artifact?
+### Mitigation Landscape
 
-Scale — what changes when one artifact becomes hundreds or thousands through automation?
+The analysis also examines:
 
-The analysis also reviews the mitigation landscape, including:
+* **Disclosure and labeling**
+* **Provenance and C2PA**
+* **Automated detection**
+* **Legal and regulatory approaches**
+* **Platform policies**
+* **Professional and organizational norms**
 
-disclosure and labeling,
+For each mitigation, I consider two questions:
 
-provenance and C2PA,
+> **What does it promise?**
+> **Where does it break?**
 
-automated detection,
+The final sections identify broader ethical responsibility and translate the findings into governance principles for Phase B.
 
-legal and regulatory approaches,
+---
 
-platform policies,
+## Phase B — Governance Policy
 
-professional and organizational norms.
+### [`policy.md`](policy.md)
 
-The final sections identify overall ethical responsibility and translate the findings into governance principles for Phase B.
-
-#policy.md
-
-This file contains Phase B: University Communications Office Synthetic Media Policy.
+This file contains the **University Communications Office Synthetic Media Policy**.
 
 The policy addresses:
 
-permitted uses,
+* **Permitted uses**
+* **Prohibited uses**
+* **Informed consent**
+* **Disclosure requirements**
+* **Provenance and recordkeeping**
+* **Factual verification**
+* **Review and approval**
+* **Refusal criteria**
+* **Detection practices**
+* **Large-scale automation controls**
+* **Vendor requirements**
+* **Incident response**
+* **Training**
+* **Policy review**
 
-prohibited uses,
+### Core Policy Principle
 
-informed consent,
+> **Disclosure does not make every use acceptable.**
 
-disclosure requirements,
+Some synthetic-media uses should be refused completely when the risk of **impersonation, deception, loss of context, or audience confusion** is too high.
 
-provenance and recordkeeping,
+The policy therefore does more than explain how synthetic media should be used responsibly. It also establishes situations in which the organization should **decline to use the technology entirely**.
 
-factual verification,
+---
 
-review and approval,
+## Limitations and Residual Risk
 
-refusal criteria,
+The policy includes a dedicated limitations section that stress-tests the proposed governance approach.
 
-detection practices,
+It considers situations in which:
 
-large-scale automation controls,
+* Disclosure is cropped or removed
+* Provenance metadata is lost
+* Automated detection is uncertain
+* Consent is misunderstood
+* Employees make mistakes
+* Bad-faith actors intentionally violate policy
+* Platforms fail to preserve labels or respond quickly
 
-vendor requirements,
+The goal of the policy is therefore **risk reduction and accountability**, not the unrealistic promise of perfect prevention.
 
-incident response,
+---
 
-training,
+## Connection to Task 6
 
-policy review.
+Task 7 is grounded directly in the synthetic-media work completed in Task 6.
 
-The policy also includes a limitations and residual risk section that stress-tests the policy against realistic failure modes such as removed disclosure, lost provenance, imperfect detection, misunderstood consent, employee mistakes, bad-faith misuse, and platform limitations.
+### Task 6 Repository
 
-#A central principle of the policy is that:
+**[Task 6: Deep Fake Research Project](https://github.com/patilvaishnavi101/Task_06_Deep_Fake)**
 
-Disclosure does not make every use acceptable.
+Task 6 provided the practical experience that informed the ethical reasoning in Task 7, including experimentation with:
 
-Some synthetic-media uses should be refused completely when the risk of impersonation, deception, or audience confusion is too high.
+* **ElevenLabs** synthetic audio
+* **HeyGen** synthetic video
+* **Hive** AI-content detection
+* Synthetic-media disclosure
+* Evaluation of detection strengths and limitations
 
-#Connection to Task 6
+---
 
-Task 7 is grounded in the synthetic-media work completed in Task 6.
+## What Surprised Me
 
-#Task 6 Repository:
-Task 6: Deep Fake Research Project
+The most surprising part of this project was realizing that the ethical problem does **not begin only when synthetic content becomes false**.
 
-The Task 6 work is referenced rather than re-uploaded into this repository.
+Even when the message itself is truthful, synthetic media can separate a statement from the person who appears to deliver it.
 
-What Surprised Me
+A realistic voice or face can carry **authority, credibility, and identity** even when the represented person did not personally record the message.
 
-The most surprising part of this project was realizing that the ethical problem does not begin only when synthetic content becomes false.
+My Task 6 detection work also changed how I viewed technical safeguards. The synthetic audio was detected with high confidence, while the visual result was less decisive. This showed me that automated detection can be useful, but it should **not be treated as proof**.
 
-Even when the message is truthful, synthetic media can separate a statement from the person who appears to deliver it. A realistic voice or face can carry authority and credibility even when the person represented did not personally record the message.
+Another important realization was that many safeguards depend on **context remaining intact**:
 
-My Task 6 detection work also changed how I viewed technical safeguards. The synthetic audio was detected with high confidence, while the visual result was less decisive. This showed me that automated detection can be useful, but it should not be treated as proof.
+> **A disclosure can be cropped.**
+> **Metadata can be lost.**
+> **A video can be clipped and reframed.**
+> **A detector can be uncertain.**
 
-Another important realization was that many safeguards depend on context remaining intact. A disclosure can be cropped. Metadata can be lost. A video can be clipped and reframed. A detector can be uncertain.
+Because of this, the strongest governance approach is not one perfect technical solution.
 
-Because of this, the strongest governance approach is not one perfect technical solution. It is a combination of verified content, informed consent, visible disclosure, provenance, human review, incident response, and a willingness to refuse high-risk uses.
+Instead, it requires a combination of:
 
+* **Verified content**
+* **Informed consent**
+* **Visible disclosure**
+* **Provenance**
+* **Human review**
+* **Incident response**
+* **A willingness to refuse high-risk uses**
 
-#Synthetic Media Notice
+---
 
-No new synthetic media depicting a real, identifiable person is created or distributed in this repository.
+## Key Takeaway
 
-This repository contains written ethical analysis and governance materials only.
+> **Responsible synthetic-media governance is not only about deciding how to use the technology safely. It also requires deciding when the technology should not be used at all.**
+
+---
+
+## Synthetic Media Notice
+
+> **No new synthetic media depicting a real, identifiable person is created or distributed in this repository.**
+
+This repository contains **written ethical analysis and governance materials only**.
