@@ -346,8 +346,6 @@ The final policy should contain prohibited uses and a refusal standard. Disclosu
 
 This is the most important governance implication of my Phase A analysis. Responsible synthetic-media governance is not only about determining how to create synthetic media safely. It also requires determining when the organization should not create it at all.
 
-These principles provide the foundation for the Phase B policy.
-
 References for Step 3
 
 YouTube Help. Disclosing use of GenAI content.
@@ -388,6 +386,4 @@ https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
 
 American Association of Political Consultants. AAPC Condemns Use of Deceptive Generative AI Content in Political Campaigns.
 https://theaapc.org/american-association-of-political-consultants-aapc-condemns-use-of-deceptive-generative-ai-content-in-political-campaigns-2/
-The main conclusion I draw from these scenarios is that responsible synthetic-media use requires several safeguards at the same time. Truthfulness alone is not enough. Disclosure alone is not enough. Responsible use also requires consent, appropriate context, review, and controls over how the capability is scaled.
 
-The next part of Phase A will evaluate the mitigation landscape, including disclosure, provenance, detection, legal and regulatory approaches, platform policies, and professional or organizational norms.
